@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+   <title>Calcular IMC</title>
+</head>
+<body>
+   
+<h1 class="titulo">Calculo de IMC</h1>
+<p>
+    <input class="caixa" placeholder="Informe a altura (Ex: 1.80)" type="text" id="altura" name="altura" maxlength="5" height="3px" width=10px/>
+  </p>
+  
+  <p>
+    <input class="caixa" placeholder="Informe o peso (Ex: 90.0)" type="text" id="peso" name="peso" size="10" maxlength="5" height="3px" width=10px/>
+  </p>
+  
+  <p>
+    <input class="bt" type="button" value="Calcular" onclick="calcula_imc()" />
+  </p>
+  <p id="resultado"></p>
+
+    <script src="/script.js"></script>
+</body>
+</html>

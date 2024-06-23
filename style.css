@@ -1,0 +1,27 @@
+.bt {
+  background: #1C2230;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+}
+
+.bt:hover {
+  font-weight: bold;
+  background: #4054B2;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+}
+
+.caixa {
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+}
+
+input {
+width: 200px;
+padding: 10px;
+}
